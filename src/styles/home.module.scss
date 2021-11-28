@@ -21,6 +21,23 @@
 .centerItems{
     display: flex;
     align-items: center;
+
+    a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #F7F6F6;
+        margin-right: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        height: 2rem;
+
+        &:hover{
+            color: #FFC702;
+            border-bottom: 2px solid #FFC702;
+        }
+    }
+
+    
 }
 
 .title{
@@ -32,19 +49,3 @@
     font-weight: bold;
     text-decoration: none;
 }
-
-.items{
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #F7F6F6;
-    margin-right: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    height: 2rem;
-}
-
-.items:hover{
-    color: #FFC702;
-    border-bottom: 2px solid #FFC702;
-}
-
