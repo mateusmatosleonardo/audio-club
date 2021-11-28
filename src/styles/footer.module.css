@@ -21,7 +21,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: salmon;
+    align-items: flex-end;
 }
 
 .title{
@@ -46,7 +46,6 @@
     margin-right: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    height: 2rem;
 }
 
 .text p{

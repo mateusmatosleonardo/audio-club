@@ -1,5 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import style from '../../styles/footer.module.css';
+
+import Image from 'next/image';
+import Github from '../../assets/images/github.png';
 
 const Footer = () =>{
     return(
@@ -19,6 +23,13 @@ const Footer = () =>{
                     <p>portfolio</p>
                     <p>Colaboradores: Mateus, Lília, Júlia</p>
                 </div>
+                <a href="">
+                    <Image 
+                        src={Github}
+                        width={35}
+                        height={35}
+                    />
+                </a>
             </div>
         </div>
     )
