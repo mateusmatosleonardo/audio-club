@@ -11,7 +11,7 @@ const Header = () =>{
                 <a href="#" className={style.title}>AudioClub</a>
                 <div className={style.centerItems}>
                     <a href="#" className={style.items}>Home</a>
-                    <a href="#" className={style.items}>Headphones</a>
+                    <a href="Headphones" className={style.items}>Headphones</a>
                     <a href="#" className={style.items}>Speakers</a>
                     <a href="#" className={style.items}>Earphones</a>
                     <Image
