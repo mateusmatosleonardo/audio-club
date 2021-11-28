@@ -14,11 +14,13 @@ const Header = () =>{
                     <a href="Headphones">Headphones</a>
                     <a href="Speakers">Speakers</a>
                     <a href="Earphones">Earphones</a>
-                    <Image
-                        src={Car}
-                        width={35}
-                        height={35}
-                    />
+                    <a href="ProductDetails">
+                        <Image
+                            src={Car}
+                            width={35}
+                            height={35}
+                        />
+                    </a>
                 </div>
             </div>
         </div>
