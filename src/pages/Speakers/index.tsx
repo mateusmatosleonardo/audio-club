@@ -1,5 +1,6 @@
 import React from 'react';
 import ContainerTitle from '../../components/ContainerTitle';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
 const Speakers = () =>{
@@ -7,6 +8,7 @@ const Speakers = () =>{
         <>
         <Header/>
         <ContainerTitle title="Speakers"/>
+        <Footer/>
         </>
     )
 }
