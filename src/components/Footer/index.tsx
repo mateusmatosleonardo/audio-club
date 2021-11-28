@@ -21,7 +21,8 @@ const Footer = () =>{
                 <div className={style.text}>
                     <p>Projeto desenvolvido para compor</p>
                     <p>portfolio</p>
-                    <p>Colaboradores: Mateus, Lília, Júlia</p>
+                    <p>Colaboradores: <a href="">Mateus</a>, <a href="">Lília</a>, <a href="">Júlia</a></p>
+                    {/* adicionar o link do github */}
                 </div>
                 <a href="https://github.com/mateusmatosleonardo/audio-club">
                     <Image 
