@@ -23,7 +23,7 @@ const Footer = () =>{
                     <p>portfolio</p>
                     <p>Colaboradores: Mateus, Lília, Júlia</p>
                 </div>
-                <a href="">
+                <a href="https://github.com/mateusmatosleonardo/audio-club">
                     <Image 
                         src={Github}
                         width={35}
