@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import style from '../../styles/productDetails.module.scss';
 import Image from "next/image";
 import Phones from '../../assets/images/phoness.svg';
+import RoundButton from "../../components/RoundButton";
 
 const ProductDetails = () =>{
 
@@ -26,8 +27,9 @@ const ProductDetails = () =>{
                         <h2>HEADHONES</h2>
                         <p>Wireless over-ear earphone with noisy noise</p>
                         <h1>${price}</h1>
-                        <div>
-                            <button>Add</button>
+                        <div className={style.addContainer}>
+                            <p>Nada aqui</p>
+                            <RoundButton title="ADD TO CART"/>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+.input{
+    cursor: pointer;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #D77D49;
+    transition: .2s ease-in-out;
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+        transform: translateY(-2px);
+    }
+}
