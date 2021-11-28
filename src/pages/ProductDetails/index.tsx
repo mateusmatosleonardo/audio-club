@@ -6,6 +6,9 @@ import Image from "next/image";
 import Phones from '../../assets/images/phoness.svg';
 
 const ProductDetails = () =>{
+
+    const price = 1.499;
+
     return(
         <>
             <Header/>
@@ -18,7 +21,14 @@ const ProductDetails = () =>{
                         height={390}
                     />
                     <div className={style.information}>
-                        <p>RELEASE</p>
+                        <h3>RELEASE</h3>
+                        <h2>CLUB JX88</h2>
+                        <h2>HEADHONES</h2>
+                        <p>Wireless over-ear earphone with noisy noise</p>
+                        <h1>${price}</h1>
+                        <div>
+                            <button>Add</button>
+                        </div>
                     </div>
                 </div>
             </div>
