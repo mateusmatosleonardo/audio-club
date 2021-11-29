@@ -4,6 +4,9 @@ import Header from "../../components/Header";
 import style from '../../styles/productDetails.module.scss';
 import Image from "next/image";
 import Phones from '../../assets/images/phoness.svg';
+import RecOne from '../../assets/images/recOne.svg';
+import RecTwo from '../../assets/images/recTwo.svg';
+import RecMain from '../../assets/images/recMain.svg';
 import RoundButton from "../../components/RoundButton";
 
 const ProductDetails = () =>{
@@ -55,6 +58,30 @@ const ProductDetails = () =>{
                                 <p>1x </p>
                                 <span>lorem ipsum dolor sit</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.sectionImages}>
+                    <div className={style.center}>
+                        <div className={style.boxImageOne}>
+                            <Image 
+                                src={RecOne}
+                                width={370}
+                                height={210}
+                            />
+                            <Image 
+                                src={RecTwo}
+                                width={370}
+                                height={210}
+                            />
+                        </div>
+                        <div className={style.boxImageTwo}>
+                            <Image 
+                                src={RecMain}
+                                width={570}
+                                height={502}
+                            />
+                           
                         </div>
                     </div>
                 </div>
