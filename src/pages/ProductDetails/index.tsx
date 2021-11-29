@@ -33,6 +33,31 @@ const ProductDetails = () =>{
                         </div>
                     </div>
                 </div>
+                <div className={style.section}>
+                    <div className={style.center}>
+                        <div className={style.box}>
+                            <h3>FEATURES</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique.
+                                Proin quis bibendum diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique.
+                                Proin quis bibendum diam. </p>
+                        </div>
+                        <div className={style.boxTwo}>
+                            <h3>IN THE BOX</h3>
+                            <div className={style.alignOptions}>
+                                <p>1x </p>
+                                <span>lorem ipsum dolor sit</span>
+                            </div>
+                            <div className={style.alignOptions}>
+                                <p>1x </p>
+                                <span>lorem ipsum dolor sit</span>
+                            </div>
+                            <div className={style.alignOptions}>
+                                <p>1x </p>
+                                <span>lorem ipsum dolor sit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
